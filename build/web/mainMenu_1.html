@@ -1,0 +1,15 @@
+
+<div id="title" > <h1 id="h1" style="display:none"> Chinese Checkers </h1>
+    <div id="btns">
+
+        <button id="newGamebtn" class="gamebtn"  type="submit" ><span class="innerText" > New Game </span></button><br>
+        <button id="loadGamebtn" class="gamebtn"  type="submit"><span class="innerText" > Load Game </span></button>
+        <div id="loadGameDiv" style="display: none;" >
+                <form id="loadGameForm" method="POST" action="loadGame" enctype="multipart/form-data">
+                    <input type="file"  accept=".xml" id="loadFile" name="loadFile"> 
+                    <button id="loadbtn" type="submit" disabled class="gamebtn">Load</button>
+                </form>
+            </div>
+        </div>
+    </div>
+

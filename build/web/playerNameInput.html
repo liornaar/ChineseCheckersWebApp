@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Waiting for players</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="js/playerNames.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <div id="container">
+            <div id="content">
+                <div class="header"></div>
+                <div class="headerBreak"></div>
+                <form id="playerJoin">
+                    <div class="playerName" id="title">
+                        <label id="joinGame" class="errorJoin"> Game is waiting for players, enter your name to join! </label><br><br>
+                        <input type="text" placeholder="Enter Your Name:" id="playerName" name="playerName">
+                        <div class="errorDiv">
+                        <label id="dupName" style="display: none" class="errorLabel"> this name already exists, choose another</label><br>
+                        <label id="tooLate" style="display: none" class="errorLabel"> sorry, you were too late to enter the game, try again later</label><br>
+                        <div>
+                            <div id="gameInfo"> 
+                                <label>Number of players - <label id="playersInfo"></label></label> <br>
+                                <label>Number of Humans - <label id="humansInfo"></label></label> <br>
+                                <label>Number of Color for each player - <label id="colorsInfo"></label></label> <br>
+                                <label>Remaining players to join - <label id="remainingInfo"></label></label> <br>
+                            </div>
+                        <button type="button" id="sumbitName"  class="gamebtn" > Join Game </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Chinese Checkers</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <script src="js/jquery-2.1.4.min.js"></script>
+        <script src="js/mainMenuErrorXML.js"></script>
+    </head>
+    <body>
+        <div id="container">
+            <div id="content">
+                <div class="header"></div>
+                <div class="headerBreak"></div>
+                <div id="bodyContainer">
+                    <div id="title" > <h1 id="h1"> Chinese Checkers </h1>
+                        <div id="btns">
+
+                            <button id="newGamebtn" class="gamebtn"  type="submit" ><span class="innerText"> New Game </span></button><br>
+                            <button id="loadGamebtn" class="gamebtn"  type="submit"><span class="innerText"> Load Game </span></button>
+                            <div id="loadGameDiv">
+                                <form id="loadGameForm" method="POST" action="loadGame" enctype="multipart/form-data">
+                                      <input type="file"  accept=".xml" id="loadFile" name="loadFile"> 
+                                    <button id="loadbtn" type="submit" disabled>Load</button> <br>
+                                    
+                                    <div class="errorDiv"><label id="error" class="errorLabel"> The XML file is corrupted </label> </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

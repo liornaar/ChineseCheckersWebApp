@@ -1,0 +1,163 @@
+.BLACK{
+  -moz-box-shadow:inset 0px 39px 0px -24px #292424;
+	box-shadow:inset 0px 39px 0px -24px #292424;
+	background-color:#070101;
+  padding: 11px 11px 11px 11px;
+    border-radius: 80em; 
+    border-color:black;
+    cursor:pointer;
+}
+.BLACK:hover {
+    opacity: 0.6;
+}
+.RED{
+  -moz-box-shadow:inset 0px 39px 0px -24px #de4d57;
+	box-shadow:inset 0px 39px 0px -24px #de4d57;
+	background-color:#bc293d;
+  padding: 11px 11px 11px 11px;
+    border-radius: 80em; 
+    border-color:black;
+    cursor:pointer;
+}
+.RED:hover {
+    opacity: 0.6;
+}
+
+.BLUE{
+  -moz-box-shadow:inset 0px 39px 0px -24px #5391ee;
+	box-shadow:inset 0px 39px 0px -24px #5391ee;
+	background-color:#2964bc;
+  padding: 11px 11px 11px 11px;
+    border-radius: 80em; 
+    border-color:black;
+    cursor:pointer;
+}
+.BLUE:hover {
+    opacity: 0.6;
+}
+
+.WHITE{
+  -moz-box-shadow:inset 0px 39px 0px -24px #f8f8f8;
+	box-shadow:inset 0px 39px 0px -24px #f8f8f8;
+	background-color:#c7c4c4;
+  padding: 11px 11px 11px 11px;
+    border-radius: 80em; 
+    border-color:black;
+    cursor:pointer;
+}
+
+.WHITE:hover {
+    opacity: 0.6;
+}
+
+
+.YELLOW{
+  -moz-box-shadow:inset 0px 39px 0px -24px #e4e63c;
+	box-shadow:inset 0px 39px 0px -24px #e4e63c;
+	background-color:#b2b419;
+  padding: 11px 11px 11px 11px;
+    border-radius: 80em; 
+    border-color:black;
+    cursor:pointer;
+}
+
+.YELLOW:hover {
+    opacity: 0.6;
+}
+
+.GREEN{
+  -moz-box-shadow:inset 0px 39px 0px -24px #90e63c;
+	box-shadow:inset 0px 39px 0px -24px #90e63c;
+	background-color:#5da11b;
+  padding: 11px 11px 11px 11px;
+    border-radius: 80em; 
+    border-color:black;
+    cursor:pointer;
+}
+
+.GREEN:hover {
+    opacity: 0.6;
+}
+
+.EMPTY{
+  -moz-box-shadow:inset 0px 39px 0px -24px #abb0a7;
+	box-shadow:inset 0px 39px 0px -24px #abb0a7;
+	background-color:#abb0a7;
+  padding: 11px 11px 11px 11px;
+    border-radius: 80em; 
+    border-color:black;
+    cursor:pointer;
+}
+
+.POS_MOVE{
+    -moz-box-shadow:inset 0px 39px 0px -24px #7bfcca;
+	box-shadow:inset 0px 39px 0px -24px #7bfcca;
+	background-color:#7bfcca;
+  padding: 11px 11px 11px 11px;
+    border-radius: 80em; 
+    border-color:black;
+    cursor:pointer;
+}
+
+
+.POS_MOVE:hover {
+    opacity: 0.6;
+}
+
+
+/* jQuery Countdown styles 2.0.0. */
+.is-countdown {
+//	border: 1px solid #ccc;
+//	background-color: #eee;
+}
+.countdown-rtl {
+	direction: rtl;
+}
+.countdown-holding span {
+	//color: #888;
+}
+.countdown-row {
+	clear: both;
+	width: 100%;
+	padding: 0px 2px;
+	text-align: center;
+}
+.countdown-show1 .countdown-section {
+	width: 98%;
+}
+.countdown-show2 .countdown-section {
+	width: 48%;
+}
+.countdown-show3 .countdown-section {
+	width: 32.5%;
+}
+.countdown-show4 .countdown-section {
+	width: 24.5%;
+}
+.countdown-show5 .countdown-section {
+	width: 19.5%;
+}
+.countdown-show6 .countdown-section {
+	width: 16.25%;
+}
+.countdown-show7 .countdown-section {
+	width: 14%;
+}
+.countdown-section {
+//	display: block;
+	float: left;
+	font-size: 50%;
+	text-align: center;
+}
+.countdown-amount {
+    font-size: 150%;
+}
+.countdown-period {
+  //  display: block;
+}
+.countdown-descr {
+//	display: block;
+	width: 100%;
+}
+
+

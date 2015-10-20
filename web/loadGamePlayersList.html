@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Chinese Checkers - MTA 2015</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <script src="js/loadGamePlayers.js"></script>
+    </head>
+    <body>
+         <div id="container">
+            <div id="content">
+                <div class="header"></div>
+                <div class="headerBreak"></div>
+                <div id="title">
+                   <h1 id="gameTitle"> Please Select your name from the list: </h1>
+                   <label id="updating" style=""> Updating players List... </label><br><br>
+                    <img src="ajax-loader.gif" alt="loading" class="ajax-loader" />
+                    <div id="playerList">
+                        
+                    </div>
+                    <button type="submit" id="sumbitName" value="send" class="gamebtn" disabled > Join Game </button>
+                </div>
+            </div>
+         </div>
+    </body>
+</html>
